@@ -1,0 +1,106 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+
+	background-image: url(https://media.istockphoto.com/photos/cooking-nd-seasoning-spices-border-on-black-slate-background-picture-id953140058?b=1&k=20&m=953140058&s=170667a&w=0&h=cFHmDfsARUpEkPd55UlMklVcXHs0dyRoENAQawCISr8=);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+h1{
+	
+	font-family: ;
+	color: whitesmoke;
+	font-size: ;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	/*padding: 4px 0px;*/
+	
+}
+
+#LogIn{
+
+	-webkit-box-shadow: 3px 6px 32px 2px rgba(0,0,0,0.72);
+	-moz-box-shadow: 3px 6px 32px 2px rgba(0,0,0,0.72);
+	box-shadow: 3px 6px 32px 2px rgba(0,0,0,0.72);
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 10px;
+}
+
+input[type=text],input[type=password]{
+	background-color: transparent;
+	border: none;
+	border-bottom:2px solid #ccc ;
+	color: #ffffff;
+	transition: .3s ease-in-out;
+}
+
+input[type=text]::placeholder,input[type=password]::placeholder{
+	font-family: ;
+	color: white;
+	opacity: 0.8;
+	font-size: 17px;
+}
+
+.button{
+	color: black;
+	background-color: whitesmoke;
+	width: 140px;
+	font-size: 19px;
+}
+
+.button:hover{
+	color: white;
+	border: 2px solid #00FFEF;
+}
+
+input[type=text]:focus,input[type=text]:hover ,input[type=password]:focus,input[type=password]:hover{
+	box-shadow: none;
+	color: white;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #00FFEF;
+	background: transparent;
+}
+
+#textarea{
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	color: #ffffff;
+	transition: .3s ease-in-out;
+}
+
+#textarea::placeholder{
+	font-family: ;
+	color: white;
+	font-size: 17x;
+	opacity: 0.8;
+}
+
+#textarea:focus, #textarea:hover{
+	box-shadow: none;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #00FFEF;
+}
+
+span{
+	color: white;
+}
+
+img{
+	height: 150px;
+	width: 150px;
+}
+
+a:link{
+	color: turquoise;
+	text-decoration: none;
+}

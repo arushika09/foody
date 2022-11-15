@@ -1,0 +1,81 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+
+	background-image: url("https://i.pinimg.com/736x/d5/f1/b1/d5f1b175607ed295eea4be16966d2a6e--health-foods-health-benefits.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h2{
+	color: white;
+	font-size: 45px;
+	margin-top: 23%;
+	padding: 20px;
+	padding-bottom: 40px;
+	padding-left: 20%;
+}
+
+form{
+	padding-left: 20%;
+	padding-right:20% ;
+}
+
+.button{
+	color: white;
+	font-size: 29px;
+}
+
+.button:hover{
+	color: turquoise;
+	border: 2px solid turquoise;
+}
+
+input[type=text],input[type=tel],input[type=date],input[type=time],input[type=number]{
+	background-color: transparent;
+	border: none;
+	font-size: 20px;
+	border-bottom:2px solid #ccc ;
+	color: #ffffff;
+	transition: .3s ease-in-out;
+}
+
+input[type=text]::placeholder,input[type=tel]::placeholder,input[type=date]::placeholder,input[type=time]::placeholder,input[type=number]::placeholder{
+	font-family: 'Times New Roman', Times, serif;
+	color: white;
+	opacity: 0.8;
+	font-size: 20px;
+}
+
+input[type=text]:focus,input[type=text]:hover ,input[type=tel]:focus,input[type=tel]:hover,input[type=time]:focus,input[type=time]:hover,input[type=date]:focus,input[type=date]:hover,input[type=number]:focus,input[type=number]:hover{
+	box-shadow: none;
+	color: white;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid #00FFEF;
+	background: transparent;
+}
+
+.lineUp {
+  animation: 2s anim-lineUp ease-out infinite;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
